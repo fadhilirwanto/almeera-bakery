@@ -1,0 +1,160 @@
+.navbar-brand{
+    width:150px;
+    height:100px;
+}
+
+.baris-1{
+    background-color: #f5f5dc;
+}
+
+.baris-2,
+.baris-4,
+.baris-6{
+    background-color: #adaa86;
+    height: 116px
+}
+
+.baris-3,
+.baris-5{
+  background-color: #f5f5dc;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  padding: 40px;
+}
+
+.baris-7{
+  background-color: #f5f5dc;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  padding: 40px;
+  height:30vh
+}
+
+
+.AboutUs{
+  display:flex;
+  text-align: left;
+  padding: 0px
+}
+
+.image-AboutUs{
+  align-items: left;
+  justify-content: left;
+  height:450px;
+  width:450px;
+}
+
+.product{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.product-card-flex{
+  margin-top: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:25px
+}
+
+.btn-primary{
+  background-color: #999764;
+  border-color: #999764;
+}
+
+.btn-primary:hover{
+  background-color:#77774d;
+  border-color: #666540;
+}
+
+.btn-primary:active {
+  background-color: #f5f5dc;
+  border-color:#77774d;
+}
+
+.footer{
+  text-align: center;
+  justify-content: end;
+}
+
+.fade-up {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transform: translateY(20px); /* Menggeser komponen ke bawah sejauh 20px */
+    animation: fadeUpAnimation 2s forwards; /* Menggunakan animasi dengan durasi 1 detik */
+
+  }
+
+.content-image1{
+    height: 500px;
+    width: 500px;
+}
+
+.judul-paragraf{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    padding-left: 40px;
+}
+  
+  @keyframes fadeUpAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.footer{
+    background-color: #333333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width:100%
+}
+  
+.copyright{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff
+    
+}
+
+/* punya product.html */
+
+body{
+  background-color: #f5f5dc;
+}
+
+.image-jumlah{
+  width: 160px;
+  height: 120px
+}
+
+.navbar-cart{
+color: #47443a;
+margin-right: 30px;
+width: 32px;
+height: 32px;
+}
+
+.navbar-cart:hover{
+color: black
+}
+
+.navbar-ageung{
+  width: auto;
+  height: auto;
+}
