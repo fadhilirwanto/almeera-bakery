@@ -17,6 +17,33 @@
     flex-direction: row
 }
 
+.product-card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(33.33% - 20px); /* Mengatur lebar kartu agar 3 kartu per baris pada tampilan desktop */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query untuk tampilan ponsel */
+@media (max-width: 768px) {
+  .product-card-flex {
+      flex-direction: column; /* Tata letak menumpuk pada tampilan ponsel */
+  }
+
+  .card {
+      width: 100%; /* Lebar kartu akan mengambil lebar penuh container */
+  }
+}
+
 .baris-1 img{
   width: 45vw;
   height:auto
@@ -61,6 +88,35 @@
   display: block;
   padding: 40px;
 }
+
+.product-card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(33.33% - 20px); /* Mengatur lebar kartu agar 3 kartu per baris pada tampilan desktop */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query untuk tampilan ponsel */
+@media (max-width: 768px) {
+  .product-card-flex {
+      flex-direction: column; /* Tata letak menumpuk pada tampilan ponsel */
+  }
+
+  .card {
+      width: 100%; /* Lebar kartu akan mengambil lebar penuh container */
+  }
+}
+
 
 .baris-7{
   background-color: #f5f5dc;
