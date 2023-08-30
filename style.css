@@ -13,6 +13,8 @@
 
 .baris-1{
     background-color: #f5f5dc;
+    display: flex;
+    flex-direction: row
 }
 
 .baris-1 img{
